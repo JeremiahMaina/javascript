@@ -1,10 +1,9 @@
-// Change the heading text
+
 function changeText() {
   const heading = document.getElementById("mainHeading");
   heading.textContent = "Welcome to Dynamic JavaScript!";
 }
 
-// Modify the image's CSS style
 function changeStyle() {
   const image = document.getElementById("styling");
   image.style.border = "10px dashed crimson";
@@ -12,7 +11,6 @@ function changeStyle() {
   image.style.transform = "rotate(5deg)";
 }
 
-// Add or remove a quote paragraph dynamically
 let quoteAdded = false;
 
 function toggleQuote() {
